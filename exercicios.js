@@ -37,3 +37,27 @@ document.write(a4, ": ", a4.lastIndexOf("O"), "<br>")
 document.write(b4, ": ", b4.lastIndexOf("O"), "<br>")
 document.write(c4, ": ", c4.lastIndexOf("O"), "<br>")
 document.write(d4, ": ", d4.lastIndexOf("O"), "<br>")
+document.write("<br>")
+
+document.write("6) <br>")
+let mouse = {
+    preço: "22,00",
+    frase: "O MELHOR MOUSE POR  R$"
+}
+let tecl = {
+    preço: "50,00",
+    frase: "TECLADO QUE TRAS O MELHOR CONFORTO POR "
+}
+let cad = {
+    preço: "1300,00",
+    frase: "CADEIRA GAMER TOP DE LINHA"
+}
+let mousep = {
+    preço: "15,00",
+    frase: "UTILIZE O MELHOR MOUSE PAD POR "
+}
+document.write("LOJA DE INFORMATICA <br> <br>")
+document.write(mouse.frase.concat(mouse.preço), "<br>")
+document.write(tecl.frase.concat(tecl.preço), "<br>")
+document.write(cad.frase.concat(cad.preço), "<br>")
+document.write(mousep.frase.concat(mousep.preço), "<br>")
