@@ -20,3 +20,12 @@ document.write("a) ", a3, ": ", a3.length, "<br>")
 document.write("b) ", b3, ": ", b3.length, "<br>")
 document.write("c) ", c3, ": ", c3.length, "<br>")
 document.write("d) ", d3, ": ", d3.length, "<br>")
+document.write("<br>")
+
+document.write("4) <br>")
+let a4 = "A MAIOR TECNOLOGIA", b4 = "HARDWARE FAZ O COMPUTADOR", c4 =  "FIAP A MELHOR FACULDADE", d4 = "TENCOLOGIA E INOVAÇÃO"
+document.write("-Primeira ocorrência da letra 'o'. <br>")
+document.write(a4, ": ", a4.indexOf("O"), "<br>")
+document.write(b4, ": ", b4.indexOf("O"), "<br>")
+document.write(c4, ": ", c4.indexOf("O"), "<br>")
+document.write(d4, ": ", d4.indexOf("O"), "<br>")
